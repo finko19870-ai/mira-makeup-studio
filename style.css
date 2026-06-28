@@ -1532,3 +1532,66 @@ color:#111;
     }
 
 }
+/* ===== MOBILE HEADER FIX ===== */
+
+@media(max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+
+    header{
+        width:100%;
+    }
+
+
+    .nav{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        width:100%;
+        padding:20px;
+    }
+
+
+    .menu,
+    .hamburger{
+
+        position:absolute;
+        right:20px;
+        top:25px;
+
+    }
+
+
+    .header-button{
+
+        display:none;
+
+    }
+
+
+    .hero-buttons{
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+
+    }
+
+
+    .gold-btn,
+    .glass-btn{
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        width:260px;
+        height:55px;
+
+    }
+
+}
