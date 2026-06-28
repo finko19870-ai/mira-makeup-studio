@@ -1595,3 +1595,56 @@ color:#111;
     }
 
 }
+/* FIX MOBILE WIDTH */
+
+*{
+    box-sizing:border-box;
+}
+
+html, body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+
+.whatsapp{
+
+    position:fixed !important;
+
+    right:20px !important;
+
+    bottom:20px !important;
+
+    z-index:9999;
+
+}
+
+
+@media(max-width:768px){
+
+    .hero,
+    .container,
+    .nav,
+    .hero-content{
+
+        width:100% !important;
+        max-width:100% !important;
+
+    }
+
+
+    .hero-content{
+
+        padding-left:20px;
+        padding-right:20px;
+
+    }
+
+}
