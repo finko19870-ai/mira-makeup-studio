@@ -1648,3 +1648,34 @@ img{
     }
 
 }
+/* FIX BURGER POSITION */
+
+@media(max-width:768px){
+
+    .hamburger{
+
+        position:absolute !important;
+
+        right:20px !important;
+
+        top:25px !important;
+
+        margin:0 !important;
+
+    }
+
+
+    .nav{
+
+        position:relative;
+
+    }
+
+
+    .header-button{
+
+        margin-right:60px;
+
+    }
+
+}
